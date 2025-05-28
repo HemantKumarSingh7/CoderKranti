@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CoderKranti"
+        tools:targetApi="31">
+
+
+        <activity
+            android:name=".studentdata.xml.NotesXmlActivity"
+            android:exported="false" />
+        <activity
+            android:name=".studentdata.xml.InterviewQuestionXml"
+            android:exported="false" />
+        <activity
+            android:name=".studentdata.xml.ItemActivityXmlLang"
+            android:exported="false" />
+        <activity
+            android:name=".studentdata.python.CompilerPython"
+            android:exported="false" />
+
+        <activity
+            android:name=".studentdata.python.NotesPythonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".studentdata.python.ProgramPythonFile"
+            android:exported="false" />
+        <activity
+            android:name=".studentdata.python.InterviewQuestionPython"
+            android:exported="false" />
+        <activity
+            android:name=".studentdata.python.ItemActivityPython"
+            android:exported="false" />
+        <activity
+            android:name=".studentdata.html.ProgramhtmlFile"
+            android:exported="false" />
+        <activity
+            android:name=".studentdata.html.NoteshtmlActivity"
+            android:exported="false" />
+        <activity
+            android:name=".studentdata.html.InterviewQuestionhtml"
+            android:exported="false" />
+        <activity
+            android:name=".studentdata.html.Compilerhtml"
+            android:exported="false" />
+        <activity
+            android:name=".studentdata.html.ItemActivityhtmlLang"
+            android:exported="false" />
+        <activity
+            android:name=".studentdata.css.NotesCssActivity"
+            android:exported="false" />
+        <activity
+            android:name=".studentdata.css.InterviewQuestioncss"
+            android:exported="false" />
+        <activity
+            android:name=".studentdata.css.ItemActivitycssLang"
+            android:exported="false" />
+        <activity
+            android:name=".studentdata.android.InterviewQuestionAndroid"
+            android:exported="false" />
+        <activity
+            android:name=".studentdata.android.NotesAndroidActivity"
+            android:exported="false" />
+        <activity
+            android:name=".studentdata.android.ItemActivityAndroidLang"
+            android:exported="false" />
+
+        <activity
+            android:name=".studentdata.javalang.ProgramJavaFile"
+            android:exported="false" />
+        <activity
+            android:name=".studentdata.javalang.NotesJavaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".studentdata.javalang.CompilerJava"
+            android:exported="false" />
+        <activity
+            android:name=".studentdata.javalang.InterviewQuestionJava"
+            android:exported="false" />
+        <activity
+            android:name=".studentdata.javalang.ItemActivityJavaLang"
+            android:exported="false" />
+
+        <activity
+            android:name=".studentdata.clang.InterviewQuestionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".studentdata.clang.CodeComplierActivity"
+            android:exported="false" />
+        <activity
+            android:name=".studentdata.clang.FunctionandStruct"
+            android:exported="false" />
+        <activity
+            android:name=".studentdata.clang.PointerFIle"
+            android:exported="false" />
+        <activity
+            android:name=".studentdata.clang.ProgramFile"
+            android:exported="false" />
+        <activity
+            android:name=".studentdata.clang.PdfActivity"
+            android:exported="false" />
+        <activity
+            android:name=".studentdata.clang.MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".studentdata.clang.Item_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Navigation_Drawer"
+            android:exported="false"
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/Theme.CoderKranti.NoActionBar" />
+        <activity
+            android:name=".admindata.AdminLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admindata.AdminSign_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".studentdata.SignUp_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Login_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScrnActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

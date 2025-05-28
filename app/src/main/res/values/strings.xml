@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">CoderKranti</string>
+    <string name="coderkranti">Coderkranti</string>
+    <string name="admin_login">Admin Login</string>
+    <string name="student_login">Student Login</string>
+    <string name="login">Login</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="not_yet_registered_signup_now">Not yet registered? </string>
+    <string name="sign_up">Sign Up</string>
+    <string name="name">Name</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="e_mail">E-mail</string>
+    <string name="already_an_user_login">Already an user? Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="enter_your_email_address">Enter your email address:</string>
+    <string name="cancel">Cancel</string>
+    <string name="reset">Reset</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="admin_sign_up">Admin Sign Up</string>
+    <string name="admin_id">Admin ID</string>
+    <string name="student_signup_now">Student SignUp</string>
+    <string name="admin_signup">Admin SignUp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_navigation_drawer">Navigation_Drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">CoderKranti</string>
+    <string name="nav_header_subtitle">coderkranti.in</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_uploaddata">Upload Data</string>
+    <string name="email_id">Email ID</string>
+    <string name="learning_data">Learning Data</string>
+    <string name="logout">Logout</string>
+    <string name="introduction">Introduction</string>
+
+    <string name="c_basics">C Basics</string>
+    <string name="learn_step_by_step">Learn step by step</string>
+
+    <string name="overview_of_c_language">Overview of C Language</string>
+    <string name="upload_a_pdf">Upload a Pdf</string>
+
+</resources>

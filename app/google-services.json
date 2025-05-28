@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "929477650841",
+    "project_id": "coderkranti-16bd3",
+    "storage_bucket": "coderkranti-16bd3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929477650841:android:59d4be66b62de5a2824b08",
+        "android_client_info": {
+          "package_name": "com.example.coderkranti"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJLpmQqT1SPAKn2bkTnmd4XB-jxrDXTFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
